@@ -102,3 +102,12 @@ it('should return 2 * 2 = 4... when start number is 2 and end number is 4', func
         '2 * 3 = 6 3 * 3 = 9 \n' +
         '2 * 4 = 8 3 * 4 = 12 4 * 4 = 16 \n');
 });
+
+/**
+given a tuple like (4,2)
+when call method createMultiplyTable
+then return null
+**/
+it('should return null when start number is 4 and end number is 2', function () {
+    expect(main.createMultiplyTable(4,2)).toBe(null);
+});
